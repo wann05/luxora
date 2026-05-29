@@ -2,10 +2,26 @@
 
 Aplikasi web untuk mengelola data operasional toko fashion "Luxora".
 
-## Spesifikasi Teknologi
-- **Backend:** Python + Django + Django REST Framework (DRF)
-- **Frontend:** React + Vite + Tailwind CSS
-- **Database:** MySQL
+## Anggota Kelompok
+- Wandy Jesaya Simanjuntak (25051204059)
+
+## Fitur Utama
+Manajemen Produk
+• CRUD produk lengkap: tambah, lihat, edit, dan hapus produk.
+• Upload gambar produk dengan preview sebelum disimpan.
+• Produk dapat dihubungkan ke kategori dan supplier melalui antarmuka yang sederhana.
+
+Sistem Stok & Inventori
+• Status stok otomatis: Tersedia, Rendah, atau Habis.
+• Pengelolaan harga dan stok terpusat untuk menjaga konsistensi data.
+
+Manajemen Kategori & Supplier
+• Pengelolaan data kategori dan supplier.
+• Produk terhubung langsung dengan kategori dan supplier terkait.
+
+Transaksi & Retur
+• Mendukung pencatatan transaksi penjualan.
+• Mendukung pengelolaan data retur barang.
 
 ---
 
