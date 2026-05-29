@@ -1,6 +1,6 @@
-# Luxora Dashboard - Fashion Store Management System
+# Luxora - Fashion Store Management System
 
-Aplikasi web *Full-Stack* (Frontend & Backend) untuk mengelola data operasional toko fashion "Luxora".
+Aplikasi web untuk mengelola data operasional toko fashion "Luxora".
 
 ## Spesifikasi Teknologi
 - **Backend:** Python + Django + Django REST Framework (DRF)
