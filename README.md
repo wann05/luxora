@@ -91,7 +91,7 @@ Frontend berada di dalam folder `dashboard-frontend`. Buka terminal/CMD **BARU**
    ```bash
    cd dashboard-frontend
    ```
-2. Install semua *dependencies* Node.js:
+2. Install semua *dependencies*:
    ```bash
    npm install
    ```
