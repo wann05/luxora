@@ -53,7 +53,7 @@ Backend berada di dalam folder `dashboard-backend`. Ikuti langkah berikut melalu
    ```bash
    cd dashboard-backend
    ```
-3. Buat dan aktifkan **Virtual Environment**:
+2. Buat dan aktifkan **Virtual Environment**:
    
    ```bash
    # Di Windows
@@ -64,23 +64,23 @@ Backend berada di dalam folder `dashboard-backend`. Ikuti langkah berikut melalu
    python3 -m venv venv
    source venv/bin/activate
    ```
-5. Install semua *dependencies* pada requirements.txt:
+3. Install semua *dependencies* pada requirements.txt:
    
    ```bash
    pip install -r requirements.txt
    ```
-7. Buat kerangka tabel di dalam database:
+4. Buat kerangka tabel di dalam database:
    
    ```bash
    python manage.py migrate
    ```
-9. Generate Data Dummy (Seeder):
+5. Generate Data Dummy (Seeder):
     
    ```bash
    python manage.py seed_data
    ```
    *(Perintah ini akan secara otomatis mengisi database dengan data Kategori, Produk, Supplier, Transaksi, dan Retur).*
-11. Jalankan server lokal:
+6. Jalankan server lokal:
     
    ```bash
    python manage.py runserver
