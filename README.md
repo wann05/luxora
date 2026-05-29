@@ -1,6 +1,6 @@
 # Luxora - Fashion Store Management System
 
-Aplikasi web untuk mengelola data operasional toko fashion "Luxora".
+Aplikasi berbasis web untuk mengelola operasional toko fashion "Luxora". Aplikasi ini dibuat untuk membantu usaha atau perusahaan dalam mengelola produk, stok, supplier, dan transaksi secara terstruktur sehingga dapat mendukung berjalannya aktivitas yang lebih efektif.
 
 ## Anggota Kelompok
 - Wandy Jesaya Simanjuntak (25051204059)
@@ -42,17 +42,19 @@ Aplikasi ini menggunakan MySQL sebagai database utamanya *(Konfigurasi bawaan ap
 3. Pastikan *username* MySQL Anda adalah `root` dengan *password* dikosongkan (default XAMPP/Laragon).
    *(Jika menggunakan password, maka perlu diubah pada file `dashboard-backend/config/settings.py` di bagian `DATABASES` sesuai dengan password yang digunakan)*.
 
----
+
 
 ## Langkah 2: Menjalankan Backend (Django)
 
 Backend berada di dalam folder `dashboard-backend`. Ikuti langkah berikut melalui terminal/CMD:
 
 1. Buka terminal dan masuk ke folder dashboard-backend:
+   
    ```bash
    cd dashboard-backend
    ```
-2. Buat dan aktifkan **Virtual Environment**:
+3. Buat dan aktifkan **Virtual Environment**:
+   
    ```bash
    # Di Windows
    python -m venv venv
@@ -62,20 +64,24 @@ Backend berada di dalam folder `dashboard-backend`. Ikuti langkah berikut melalu
    python3 -m venv venv
    source venv/bin/activate
    ```
-3. Install semua *dependencies* pada requirements.txt:
+5. Install semua *dependencies* pada requirements.txt:
+   
    ```bash
    pip install -r requirements.txt
    ```
-4. Buat kerangka tabel di dalam database:
+7. Buat kerangka tabel di dalam database:
+   
    ```bash
    python manage.py migrate
    ```
-5. Generate Data Dummy (Seeder):
+9. Generate Data Dummy (Seeder):
+    
    ```bash
    python manage.py seed_data
    ```
    *(Perintah ini akan secara otomatis mengisi database dengan data Kategori, Produk, Supplier, Transaksi, dan Retur).*
-6. Jalankan server lokal:
+11. Jalankan server lokal:
+    
    ```bash
    python manage.py runserver
    ```
@@ -88,18 +94,21 @@ Backend berada di dalam folder `dashboard-backend`. Ikuti langkah berikut melalu
 Frontend berada di dalam folder `dashboard-frontend`. Buka terminal/CMD **BARU** (jangan tutup terminal backend karena akan menghentikan server), lalu ikuti langkah ini:
 
 1. Masuk ke folder frontend:
+   
    ```bash
    cd dashboard-frontend
    ```
-2. Install semua *dependencies*:
+3. Install semua *dependencies*:
+   
    ```bash
    npm install
    ```
-3. Jalankan server:
+5. Jalankan server:
+   
    ```bash
    npm run dev
    ```
-4. Buka *link* yang muncul di terminal (**`http://localhost:5173`**) dan otomatis akan membuka browser
+7. Buka *link* yang muncul di terminal (**`http://localhost:5173`**) dan otomatis akan membuka browser
 
 ---
 
